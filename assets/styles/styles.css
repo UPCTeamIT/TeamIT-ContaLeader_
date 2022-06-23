@@ -20,4 +20,39 @@
     margin:0;
     box-sizing:border-box;
 }
+.section-about-content{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+.section-about-content .about-the-team__content{
+    width:90%;
+    margin:0 auto;
+}
+.about__content{
+    color: var(--second-color-blue);
+    text-align:center;
+}
+.about-the-team__content .about__content{
+    text-align:center;
+    padding:10px;
+    line-height:1.4rem;
+}
+.sectionvideo{
+    display:flex;
+    margin-bottom: 40px;
+}
+.videoteam {
+    width:90%;
+    margin:0 auto;
+}
 
+.about-the-product__content{
+    width:90%;
+    margin: 0 auto;
+}
+.about-the-product__content .about__content{
+    width:90%;
+    margin:0 auto;
+    line-height:1.4rem;
+}
