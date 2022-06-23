@@ -345,7 +345,7 @@ main{
     position:relative;
     width:100%;
     height:350px;
-    background-image:url(../img/ciudad.jpg);
+    background-image:url('../img/ciudad.jpg');
     background-position: center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -419,7 +419,6 @@ footer ul{
     line-height:1.8rem;
     list-style:none;
 }
-
 .left,.right li{
     margin:10px 0;
     cursor:pointer;
