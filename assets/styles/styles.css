@@ -21,3 +21,411 @@
     box-sizing:border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+/*Header Contaleader*/
+header{
+    position:relative;
+    width:100%;
+    min-width:320px;
+    height:350px;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    text-align:center;
+    background-image:url("../img/Contadores.jpeg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    width:81px;
+    height: 26px;
+    margin:20px auto;
+    display:flex;
+    align-content:center;
+    background-repeat:no-repeat;
+}
+
+.header-content__text{
+    margin-left:10px;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    padding-top:2px;
+    padding-bottom:10px;
+    line-height:3rem;
+    color: var(--just-white);
+    text-align:center;
+}
+
+.header-content__text h1{
+    margin: 1px auto;
+    font-weight:bold;
+    font-size:2.4rem;
+}
+.header-content__text h2{
+    margin-top:50px;
+    font-weight: 600;
+    font-size:1.9rem;
+}
+
+.header-content__text p{
+    margin-top:20px;
+    font-size:1.4rem;
+    font-weight:300;
+    line-height:1.5rem;
+    padding-left:10px;
+    color: var(--text-grays);
+}
+header .header__button{
+    position:absolute;
+    display:block;
+    left:calc(50% - 70px);
+    padding:10px 30px;
+    border-radius:5px;
+    background-color: var(--primary-color-green);
+    color:var(--just-white);
+    text-decoration:none;
+    top:330px;
+    font-size:1.6rem;
+    font-weight:bold;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    border:none;
+}
+
+.header__button span{
+    display:inline-block;
+    width:15px;
+    height:10px;
+    margin-left:10px;
+    background-image: url('../img/down-arrow.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+/*section ABOUT*/
+main{
+    min-width:320px;
+}
+
+.main-product-detail{
+    position:relative;
+    margin:30px 0;
+    width:100%;
+    height:auto;
+    background-color: var(--just-white);
+}
+.main-text__blue{
+    margin:0 auto;
+    padding-top:30px;
+    font-size:2.7rem;
+    color: var(--second-color-blue);
+    font-weight:bold;
+    text-align:center;
+}
+
+.product-cards--container{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+    min-width:320px;
+    color: var(--second-color-blue);
+
+}
+
+.product-detail--card{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    padding:20px;
+    max-width:320px;
+    background-color: var(--soft-white);
+    margin: 10px auto;
+    border-radius:5px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.product-detail--title{
+    padding-top:10px;
+    text-align:center;
+    font-size:1.5rem;
+    font-weight:600;
+}
+.product-detail--content{
+    font-size:1.2rem;
+    padding-top:10px;
+}
+.product-detail--card span{
+    margin:0 auto;
+}
+.product-detail--card .clocks{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-image: url('../img/time.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.product-detail--card .pay{
+    display:inline-block;
+    width: 30px;
+    height:30px;
+    background-image: url('../img/pay.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.product-detail--card .business{
+    display:inline-block;
+    width: 30px;
+    height:30px;
+    background-image: url('../img/contador.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+/*Section DOWNLOAD COUNTER and DOWNLOAD BUSINESS*/
+.button--download a {
+    text-decoration: none;
+    color:var(--just-white);
+}
+.section-download__counter{
+    position:relative;
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction:column;
+    background-color: var(--second-color-blue);
+}
+.section-counter__text{
+    color:var(--just-white);
+    margin:0 auto;
+    padding:50px 10px;
+}
+
+.section-counter__text .section-download__title{
+    line-height:7rem;
+    text-align:center;
+    font-size:2.7rem;
+}
+.section-download__counter img{
+    width:80px;
+    margin:0 auto;
+}
+.section-download__counter .section-content__button{
+    display:flex;
+    align-self:center;
+    padding:30px 0;
+}
+.section-download__counter .button--download{
+    width: 120px;
+    height:30px;
+    border-radius:40px;
+    background-color:var(--just-black);
+    color: var(--just-white);
+    border:none;
+}
+.section-download__counter .section-download__content{
+    font-size:1.4rem;
+
+}
+.section-download__counter .right{
+    margin-right:50px;
+}
+
+.section-download__counter .left{
+    margin-left:30px;
+    margin-top:0;
+}
+/*Section BUY INFORMATION*/
+.section-buy-information{
+    width:100%;
+    margin-top:10px;
+    text-align:center;
+}
+
+.section-buy-information .information-card{
+    height:316px;
+    display:flex;
+    overflow-x:scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.section-buy-information .content-cards{
+    position:relative;
+    width:70%;
+    height:230px;
+    padding:0 15px;
+    min-width:170px;
+    max-width:300px;
+    margin: 50px 5px 0;
+    scroll-snap-align:center;
+    background-color:var(--soft-white);
+    border-radius:15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    justify-content:center;
+}
+
+.content-cards .recommended{
+    position:absolute;
+    top:-15px;
+    width:85px;
+    padding:6px;
+    height:30px;
+    left: calc(50% - 42px);
+    background-color: var(--second-color-blue);
+    color:var(--just-white);
+    font-size:1.2rem;
+    border-radius:5px;
+    font-weight:bold;
+}
+.content-cards h3,.text-content{
+    color:var(--second-color-blue);
+}
+
+.content-cards h3{
+    padding-top:30px;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+.card-image__content{
+    width:50%;
+    margin-left:30px;
+}
+
+.content-cards .text-content{
+    font-weight:normal;
+    padding-top:20px;
+    font-size:1.0rem;
+    flex-wrap:wrap;
+}
+/*Section ABOUT THE PRODUCT - TEAM*/
+.section-about-content{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+.section-about-content .about-the-team__content{
+    width:90%;
+    margin:0 auto;
+}
+.about__content{
+    color: var(--second-color-blue);
+    text-align:center;
+}
+.about-the-team__content .about__content{
+    text-align:center;
+    padding:10px;
+    line-height:1.4rem;
+}
+.sectionvideo{
+    display:flex;
+    margin-bottom: 40px;
+}
+.videoteam {
+    width:90%;
+    margin:0 auto;
+}
+
+.about-the-product__content{
+    width:90%;
+    margin: 0 auto;
+}
+.about-the-product__content .about__content{
+    width:90%;
+    margin:0 auto;
+    line-height:1.4rem;
+}
+/*Section CALL TO ACTION*/
+.call-to-action{
+    position:relative;
+    width:100%;
+    height:350px;
+    background-image:url(../img/ciudad.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.call-to-action .div-call__content{
+    /*display:flex;
+    position:absolute;
+    flex-direction:column;
+    justify-content:center;*/
+    width:300px;
+    text-align:center;
+    background-color:var(--just-black);
+    /*align-items:center;*/
+    line-height: 3.0rem;
+    max-width: 306px;
+    border-radius:5px;
+}
+.div-call__content .call-to-action__title,.call-to-action__content{
+    color:var(--just-white);
+}
+
+.div-call__content .call-to-action__title{
+    font-weight:bold;
+    font-size:1.6rem;
+}
+
+.call-to-action__content{
+    font-size:1.0rem;
+}
+.button-call-action{
+    font-size:1.4rem;
+    padding:2px 5px;
+    margin-top:14px;
+    border:none;
+    Color: var(--just-white);
+    background-color:var(--second-color-blue);
+    border-radius:7px;
+    margin-right:5px;
+    text-decoration: none;
+    cursor:pointer;
+}
+/*section FOOTER*/
+.footer{
+    position:relative;
+    width:100%;
+    height:150px;
+    background-color:var(--just-white);
+
+}
+.footer-section{
+    display:flex;
+    justify-content:space-evenly;
+    align-self:center;
+}
+
+
+.footer-section .list__title{
+    color:var(--second-color-blue);
+    font-size:1.9rem;
+    font-weight: bold;
+}
+
+footer ul{
+    font-size:1.2rem;
+    font-weight:500;
+    line-height:1.8rem;
+    list-style:none;
+}
+
+.left,.right li{
+    margin:10px 0;
+    cursor:pointer;
+}
+
+ul a{
+    text-decoration:none;
+    color:var(--second-color-blue);
+}
