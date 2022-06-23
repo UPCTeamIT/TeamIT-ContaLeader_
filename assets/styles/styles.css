@@ -325,6 +325,7 @@ main{
 .sectionvideo{
     display:flex;
     margin-bottom: 40px;
+    justify-content:center;
 }
 .videoteam {
     width:90%;
