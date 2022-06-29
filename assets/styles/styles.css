@@ -65,9 +65,10 @@ header{
     width: 150px;
     padding: 15px 0;
     text-align: center;
-    background: #ffffff;
-    color: #008000;
+    background: var(--primary-color-green);
+    color: var(--just-white);
     border-radius: 4px;
+    font-size:1.5rem;
     text-decoration: none;/*quitar la rallita del link */
 }
 .contenedor-imagen
