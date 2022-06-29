@@ -23,8 +23,10 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 /*Header Contaleader*/
+
 header{
 
     background: linear-gradient(90deg, #004680 0%, #4484BA 100%);
@@ -68,6 +70,7 @@ header{
     background: var(--primary-color-green);
     color: var(--just-white);
     border-radius: 4px;
+
     font-size:1.5rem;
     text-decoration: none;/*quitar la rallita del link */
 }
