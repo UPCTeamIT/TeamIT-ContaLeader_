@@ -393,38 +393,128 @@ main{
     text-decoration: none;
     cursor:pointer;
 }
-/*section FOOTER*/
-.footer{
-    position:relative;
-    width:100%;
-    height:150px;
-    background-color:var(--just-white);
+/*section FOOTER_i*/
+footer
+{
+    width: 100%;
+    background:#202020 ;
+    color: white;
 
 }
-.footer-section{
-    display:flex;
-    justify-content:space-evenly;
-    align-self:center;
+.container-footer-all
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;/*para que siempre este centrado*/
+    padding: 40px;
 }
+.container-body
+{
+    display: flex;
+    justify-content: space-between;/*de extremo a extremo */
+
+}
+/*column1-inicio */
+.column1
+{
+    max-width: 400px;/*maximo*/
+}
+.column1 h1
+{
+    font-size: 22px;
+}
+.column1 p
+{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;/*sepracion hacia abajo*/
+}
+/*column1-end */
+/*column2-inicio */
+.column2
+{
+    max-width: 400px;
 
 
-.footer-section .list__title{
-    color:var(--second-color-blue);
-    font-size:1.9rem;
+}
+.column2 h1
+{
+    font-size: 22px;
+}
+.column2 .row
+{
+    margin-top: 20px;
+    display: flex;
+}
+.row img
+{
+    width: 36px;
+    height: 36px;
+}
+.row label
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+/*column2-end */
+/*column3-inicio */
+.column3
+{
+    max-width: 400px;
+}
+.column3 h1
+{
+    font-size: 22px;
+}
+.row2
+{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img
+{
+    width: 36px;
+    height: 36px;
+}
+.row2 label
+{
+    margin-left: 20px;
+    max-width: 140px;
+    margin-top: 10px;
+}
+/*column3-end */
+/*container-footer-inicio */
+.container-footer
+{
+    width: 100%;
+    background: #101010;
+
+}
+.footer
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;/*para poner de una la del otro*/
+    justify-content: space-between;
+    padding: 20px;
+}
+.copyright
+{
+    color: #C7C7C7;
+
+}
+.copyright a
+{
+    text-decoration: none;
+    color: white;
     font-weight: bold;
-}
 
-footer ul{
-    font-size:1.2rem;
-    font-weight:500;
-    line-height:1.8rem;
-    list-style:none;
 }
-.left,.right li{
-    margin:10px 0;
-    cursor:pointer;
+.information a
+{
+    text-decoration: none;
+    color: white;
+
 }
-ul a{
-    text-decoration:none;
-    color:var(--second-color-blue);
-}
+/*container-footer-end */
